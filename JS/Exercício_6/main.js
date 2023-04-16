@@ -17,7 +17,7 @@ while(visitouCidade == 1){
     let contadorCidades = cidadesVisitadas.length;
 
     if(visitouCidade == 2){
-        alert(`${turista}, você visitou ${contadorCidades} cidades, são elas: \n${cidadesVisitadas.join(', ')}.`)
+        alert(`${turista}, você visitou ${contadorCidades} cidades, são elas: \n${cidadesVisitadas.join(', \n')}.`)
         break;
     }
 }
